@@ -1,6 +1,8 @@
 """ A 1D dispersion model."""
+
 import numpy as np 
 import matplotlib.pyplot as plt
+
 
 D = 100
 Lx = 300
