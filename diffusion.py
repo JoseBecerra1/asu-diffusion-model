@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def calculate_stable_time_step(dx, diffusivity):
-    """ Calculates a stable time step for the model"""'
+    """ Calculates a stable time step for the model"""
     return 0.5*dx**2/diffusivity
 
 
